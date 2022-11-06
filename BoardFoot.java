@@ -26,7 +26,7 @@ class BoardFoot {
     double length = -1;
 
     Scanner myobj = new Scanner(System.in);
-    System.out.println("This program figutes out the length of a wooden board that is 1"
+    System.out.println("This program figures out the length of a wooden board that is 1"
                     + " board foot in dimension. (1 board foot is 144 inches³" 
                     + " of wood.");
     System.out.print("Enter the width(inch): ");
