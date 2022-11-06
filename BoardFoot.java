@@ -34,9 +34,9 @@ class BoardFoot {
     System.out.print("Enter the height(inch): ");
     heightString = myobj.next();
 
-    width = Double.parseDouble(widthString);
-    height = Double.parseDouble(heightString);
     try {
+      width = Double.parseDouble(widthString);
+      height = Double.parseDouble(heightString);
       if (width <= 0 || height <= 0) {
         System.out.println("\nPlease enter a positive number!");
       } else {
